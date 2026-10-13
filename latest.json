@@ -1,18 +1,38 @@
 {
   "alg": "Ed25519",
-  "head_hash": "4a6724d8e0da9a2953cae57d44902511eee53947c7fa7fdd19c045c4b8dc3fcf",
+  "head_hash": "4b6f79e4b451bd9c733e95f626d74ec4bfac1629395833b67a064d108c8d9ad0",
   "key_id": "4ffe70f5a9f554bb",
-  "prev_anchor_hash": "d7d54c2f246a71c88fb0368c042c90298b0f1de381adca38718fefa8377ea443",
+  "prev_anchor_hash": "6eb6536930e020e73b08da2f8837d9ba6cab60cf510ad0d7592eb211ab73b195",
   "segment": [
     {
-      "hash": "4a6724d8e0da9a2953cae57d44902511eee53947c7fa7fdd19c045c4b8dc3fcf",
-      "seq": 7
+      "hash": "06bc09561605b0e3282e3ad8c4905e0ce03982a53f9efcacc6ee7cd59b111804",
+      "seq": 8
+    },
+    {
+      "hash": "a3c7d1f4a5ce8ea0171379c5698a11d43647181b81df883f6317d55dbb3d7ccb",
+      "seq": 9
+    },
+    {
+      "hash": "3c575250933248b4cd125c08a96cf9b06fa2b96833bf73c6baf7d99eb52c2d8a",
+      "seq": 10
+    },
+    {
+      "hash": "d5ee40f9e08cf0d6eadbd91be17edf7dec06d0f44044309d6a9ad83737260fe7",
+      "seq": 11
+    },
+    {
+      "hash": "d6c8ac049c804eb4277f36c5bd8551b7f47ed49c29319076e28237cc37c595ce",
+      "seq": 12
+    },
+    {
+      "hash": "4b6f79e4b451bd9c733e95f626d74ec4bfac1629395833b67a064d108c8d9ad0",
+      "seq": 13
     }
   ],
   "segment_complete": true,
-  "seq": 7,
-  "signature": "a48fdd845209fedcf8e6e19bef0508c21066c07cffbd02a3f09be63fbc158da0a3eae02abb0d8558db27a788d2c0d3bcb2628bd6e58c8fe476b6ce70f9d85d01",
+  "seq": 13,
+  "signature": "29ddf145d777d30f9167bafc094a9984ac79d73d084f9dbed2771bb32b721bd4e4ec01487a946f1b147deec78e0e1dedd2957b42c036d6b005abc79cc54d000a",
   "signer": "conduit-router",
-  "ts": "2026-10-13T08:48:36.826Z",
+  "ts": "2026-10-13T09:12:03.424Z",
   "v": 2
 }
