@@ -1,0 +1,38 @@
+{
+  "alg": "Ed25519",
+  "head_hash": "0dc9afc05f1951e493d04ddde3d5315ab81c03fbe55b7b8af02db92e0acce8d6",
+  "key_id": "4ffe70f5a9f554bb",
+  "prev_anchor_hash": "GENESIS",
+  "segment": [
+    {
+      "hash": "45a6126fe1d9f7f09693a018e6d97c3ecd4076883e6873f1a79a78f856f77863",
+      "seq": 0
+    },
+    {
+      "hash": "32e2104dcaeba29cfc36002dbdffa8f8f1482abffc2e4632953dd0248a4f02ea",
+      "seq": 1
+    },
+    {
+      "hash": "a82904c445c43291d7ee6712f4279b599d38a8cc18b73101812713b54e4ce5e5",
+      "seq": 2
+    },
+    {
+      "hash": "fa9c17034495b78145f790e6d910efe8dcc2e22c60b7071468e86a14de54a925",
+      "seq": 3
+    },
+    {
+      "hash": "17be58906d36a6ddd54ca22f7f265e98fd6e27a48e6dd76e6b379846f162ea09",
+      "seq": 4
+    },
+    {
+      "hash": "0dc9afc05f1951e493d04ddde3d5315ab81c03fbe55b7b8af02db92e0acce8d6",
+      "seq": 5
+    }
+  ],
+  "segment_complete": true,
+  "seq": 5,
+  "signature": "c1f94a8405cf59d2202f2bd6f75f1a299640ad7038eb34ae3a61674e74d591ed7359f5627a27ec927667c26359f1187affb69c4765646632bb635a2a45734300",
+  "signer": "conduit-router",
+  "ts": "2026-10-13T08:39:36.561Z",
+  "v": 2
+}

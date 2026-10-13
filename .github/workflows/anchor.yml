@@ -1,0 +1,59 @@
+# Copyright (C) 2026 Nrupal Akolkar
+# SPDX-License-Identifier: Apache-2.0
+#
+# Mirror the Conduit Router gateway's latest audit anchor into this
+# repository. Runs daily and on demand. Appends to anchors.jsonl only
+# when the chain head has advanced past the mirrored latest.json.
+# Uses this repository's own GITHUB_TOKEN — the gateway holds no
+# credential for this repository.
+
+name: anchor-mirror
+
+on:
+  schedule:
+    - cron: "41 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the gateway's latest anchor
+        run: curl -sf https://router.pipavia.com/v1/audit/anchor -o /tmp/anchor.json
+
+      - name: Append if the chain advanced
+        run: |
+          python3 - <<'PY'
+          import json, os
+
+          anchor = json.load(open("/tmp/anchor.json"))["anchor"]
+          latest_seq = -1
+          if os.path.exists("latest.json"):
+              latest_seq = int(json.load(open("latest.json"))["seq"])
+          if int(anchor["seq"]) <= latest_seq:
+              print(f"no advance: gateway at seq {anchor['seq']}, mirror at {latest_seq}")
+              raise SystemExit(0)
+          line = json.dumps(anchor, sort_keys=True, separators=(",", ":"))
+          with open("anchors.jsonl", "a") as f:
+              f.write(line + "\n")
+          with open("latest.json", "w") as f:
+              f.write(json.dumps(anchor, indent=2, sort_keys=True) + "\n")
+          print(f"appended anchor seq {anchor['seq']}")
+          PY
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- anchors.jsonl latest.json; then
+            echo "mirror already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anchors.jsonl latest.json
+          git commit -m "anchor: append latest checkpoint"
+          git push
