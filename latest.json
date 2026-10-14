@@ -1,38 +1,34 @@
 {
   "alg": "Ed25519",
-  "head_hash": "4b6f79e4b451bd9c733e95f626d74ec4bfac1629395833b67a064d108c8d9ad0",
+  "head_hash": "3b3f2baa2451cf2c9ee1ab6f4f16ba7ad1d3813c02a208b562bcae917423ae1f",
   "key_id": "4ffe70f5a9f554bb",
-  "prev_anchor_hash": "6eb6536930e020e73b08da2f8837d9ba6cab60cf510ad0d7592eb211ab73b195",
+  "prev_anchor_hash": "507c5e50e65f8c6e475484368f93a736db6b1882406fa3520ccbff218738e52c",
   "segment": [
     {
-      "hash": "06bc09561605b0e3282e3ad8c4905e0ce03982a53f9efcacc6ee7cd59b111804",
-      "seq": 8
+      "hash": "a8ad9be10b0ff8cc72d90582e8b5af03333b060f20011fee36996c86b2f2c853",
+      "seq": 36
     },
     {
-      "hash": "a3c7d1f4a5ce8ea0171379c5698a11d43647181b81df883f6317d55dbb3d7ccb",
-      "seq": 9
+      "hash": "4e6758f5de601f4a681e651863a46a6a473023fe877f93a0ca9c9aaf8f044d49",
+      "seq": 37
     },
     {
-      "hash": "3c575250933248b4cd125c08a96cf9b06fa2b96833bf73c6baf7d99eb52c2d8a",
-      "seq": 10
+      "hash": "88beaad3faafcde47a34eb53ad3c6b7c0b13f3d0e8cc04c315b2955dc2fdd5af",
+      "seq": 38
     },
     {
-      "hash": "d5ee40f9e08cf0d6eadbd91be17edf7dec06d0f44044309d6a9ad83737260fe7",
-      "seq": 11
+      "hash": "ae7285c1da71ad9cb7d23a32099d6748d623614b766ad9a2023e964f9222e022",
+      "seq": 39
     },
     {
-      "hash": "d6c8ac049c804eb4277f36c5bd8551b7f47ed49c29319076e28237cc37c595ce",
-      "seq": 12
-    },
-    {
-      "hash": "4b6f79e4b451bd9c733e95f626d74ec4bfac1629395833b67a064d108c8d9ad0",
-      "seq": 13
+      "hash": "3b3f2baa2451cf2c9ee1ab6f4f16ba7ad1d3813c02a208b562bcae917423ae1f",
+      "seq": 40
     }
   ],
   "segment_complete": true,
-  "seq": 13,
-  "signature": "29ddf145d777d30f9167bafc094a9984ac79d73d084f9dbed2771bb32b721bd4e4ec01487a946f1b147deec78e0e1dedd2957b42c036d6b005abc79cc54d000a",
+  "seq": 40,
+  "signature": "51c5d46ad0fb85cfb294da7dfd4f96f1f280a71138481c052f4e06ea30725bfbecb4d0ba1078d38328d09485bff3d679b14e7e15de86720f942849ff0fb7650a",
   "signer": "conduit-router",
-  "ts": "2026-10-13T09:12:03.424Z",
+  "ts": "2026-10-14T04:52:04.821Z",
   "v": 2
 }
