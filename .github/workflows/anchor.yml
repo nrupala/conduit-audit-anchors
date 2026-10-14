@@ -1,13 +1,21 @@
 # Copyright (C) 2026 Nrupal Akolkar
 # SPDX-License-Identifier: Apache-2.0
 #
-# Mirror the Conduit Router gateway's latest audit anchor into this
-# repository. Runs daily and on demand. Appends to anchors.jsonl only
-# when the chain head has advanced past the mirrored latest.json.
+# Mirror the Conduit Router gateway's signed audit anchors into this
+# repository. Runs daily and on demand. Fetches the gateway's FULL
+# anchor list and appends to anchors.jsonl EVERY anchor newer than
+# the mirrored tip, in ascending seq order, after verifying chain
+# continuity for each candidate (its prev_anchor_hash must equal the
+# anchor-hash of the current tip). If continuity fails for any
+# candidate, nothing is appended and the run fails.
 # Uses this repository's own GITHUB_TOKEN — the gateway holds no
 # credential for this repository.
 
 name: anchor-mirror
+
+concurrency:
+  group: anchor-mirror
+  cancel-in-progress: false
 
 on:
   schedule:
@@ -23,27 +31,69 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch the gateway's latest anchor
-        run: curl -sf https://router.pipavia.com/v1/audit/anchor -o /tmp/anchor.json
+      - name: Fetch the gateway's full anchor list
+        run: curl -sf https://router.pipavia.com/v1/audit/anchors -o /tmp/anchors.json
 
-      - name: Append if the chain advanced
+      - name: Append every missing anchor if the chain advanced
         run: |
           python3 - <<'PY'
-          import json, os
+          import hashlib, json, os, sys
 
-          anchor = json.load(open("/tmp/anchor.json"))["anchor"]
-          latest_seq = -1
-          if os.path.exists("latest.json"):
-              latest_seq = int(json.load(open("latest.json"))["seq"])
-          if int(anchor["seq"]) <= latest_seq:
-              print(f"no advance: gateway at seq {anchor['seq']}, mirror at {latest_seq}")
+          def anchor_hash(anchor):
+              body = {k: v for k, v in anchor.items() if k != "signature"}
+              text = json.dumps(body, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+              return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+          data = json.load(open("/tmp/anchors.json"))
+          gateway_anchors = data["anchors"] if isinstance(data, dict) else data
+          gateway_anchors = sorted(gateway_anchors, key=lambda a: int(a["seq"]))
+
+          existing = []
+          if os.path.exists("anchors.jsonl"):
+              with open("anchors.jsonl") as f:
+                  for line in f:
+                      line = line.strip()
+                      if line:
+                          existing.append(json.loads(line))
+
+          if existing:
+              tip = existing[-1]
+              tip_seq = int(tip["seq"])
+              tip_hash = anchor_hash(tip)
+          else:
+              tip_seq = -1
+              tip_hash = "GENESIS"
+              if os.path.exists("latest.json"):
+                  tip_seq = int(json.load(open("latest.json"))["seq"])
+
+          candidates = [a for a in gateway_anchors if int(a["seq"]) > tip_seq]
+          if not candidates:
+              latest_gateway_seq = gateway_anchors[-1]["seq"] if gateway_anchors else "none"
+              print(f"no advance: gateway at seq {latest_gateway_seq}, mirror at {tip_seq}")
               raise SystemExit(0)
-          line = json.dumps(anchor, sort_keys=True, separators=(",", ":"))
+
+          # Verify chain continuity for EVERY candidate before writing
+          # anything. If any candidate fails, append NOTHING.
+          expected = tip_hash
+          for cand in candidates:
+              if cand.get("prev_anchor_hash") != expected:
+                  print(
+                      f"chain continuity failure: anchor seq {cand['seq']} "
+                      f"prev_anchor_hash {cand.get('prev_anchor_hash')} "
+                      f"!= tip anchor-hash {expected}",
+                      file=sys.stderr,
+                  )
+                  raise SystemExit(1)
+              expected = anchor_hash(cand)
+
           with open("anchors.jsonl", "a") as f:
-              f.write(line + "\n")
+              for cand in candidates:
+                  line = json.dumps(cand, sort_keys=True, separators=(",", ":"))
+                  f.write(line + "\n")
+          final = candidates[-1]
           with open("latest.json", "w") as f:
-              f.write(json.dumps(anchor, indent=2, sort_keys=True) + "\n")
-          print(f"appended anchor seq {anchor['seq']}")
+              f.write(json.dumps(final, indent=2, sort_keys=True) + "\n")
+          print(f"appended anchor seqs {[int(c['seq']) for c in candidates]}")
           PY
 
       - name: Commit if changed
