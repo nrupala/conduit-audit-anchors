@@ -25,4 +25,4 @@ jobs:
         run: node --check verify.mjs
 
       - name: Test — anchor chain integrity suite
-        run: node --test "tests/*.test.mjs"
+        run: node --test tests/anchors.test.mjs
