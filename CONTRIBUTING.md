@@ -24,7 +24,7 @@ documentation, and the tests.
 ## Tests are part of the change
 
 - New functionality must come with tests, and bug fixes with a regression test where practical.
-- The full test suite must pass before a PR is merged. Run it with: `node --test "tests/*.test.mjs"`
+- The full test suite must pass before a PR is merged. Run it with: `node --test tests/anchors.test.mjs`
   (CI runs the same suite on every pull request).
 - A test suite that CI does not run does not count: if you add a suite, wire it into CI
   in the same change.
