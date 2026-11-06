@@ -14,7 +14,7 @@ continuity before appending anything new.
 
 | Suite | Covers | Run it | Runs in CI |
 |---|---|---|---|
-| Anchor chain integrity (`tests/anchors.test.mjs`) | Key document shape (Ed25519, 32-byte key); every anchor's v2 fields; chain linkage (GENESIS start, each prev_anchor_hash = predecessor's hash); every anchor's Ed25519 signature against `ANCHOR-KEY.json`; segment completeness, span, and head agreement; `latest.json` identical to the newest anchor | `node --test "tests/*.test.mjs"` | Yes — CI workflow |
+| Anchor chain integrity (`tests/anchors.test.mjs`) | Key document shape (Ed25519, 32-byte key); every anchor's v2 fields; chain linkage (GENESIS start, each prev_anchor_hash = predecessor's hash); every anchor's Ed25519 signature against `ANCHOR-KEY.json`; segment completeness, span, and head agreement; `latest.json` identical to the newest anchor | `node --test tests/anchors.test.mjs` | Yes — CI workflow |
 | Verifier syntax (lint) | `verify.mjs` parses under Node | `node --check verify.mjs` | Yes — CI workflow |
 
 ## CI gates
