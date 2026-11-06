@@ -1,0 +1,28 @@
+# Copyright (C) 2026 Nrupal Akolkar
+# SPDX-License-Identifier: Apache-2.0
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  verify-chain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Lint — verifier parses (node --check)
+        run: node --check verify.mjs
+
+      - name: Test — anchor chain integrity suite
+        run: node --test "tests/*.test.mjs"
