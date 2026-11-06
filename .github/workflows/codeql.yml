@@ -1,0 +1,39 @@
+# CodeQL for JavaScript / TypeScript — copy to .github/workflows/codeql.yml
+# at repo birth.
+#
+# BUILD MODE: buildless. JavaScript/TypeScript is extracted without a build — no
+# autobuild step, no build-mode input. Proven shape: green first CodeQL runs on
+# multiple house JS/TS repos on 2026-11-06.
+#
+# REPLACE main with the repo's actual default branch (see ci.yml).
+# DONE means: the first run after the first push has been READ and is green.
+name: "CodeQL — JavaScript/TypeScript"
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  schedule:
+    - cron: "23 5 * * 1"
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  analyze:
+    name: Analyze (javascript-typescript)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:javascript-typescript"
