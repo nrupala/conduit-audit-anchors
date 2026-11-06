@@ -17,7 +17,7 @@
 //   - latest.json is exactly the newest anchor in anchors.jsonl;
 //   - every anchor names the published key (key_id, signer).
 //
-// Run from the repository root:  node --test tests/
+// Run from the repository root:  node --test tests/anchors.test.mjs
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
