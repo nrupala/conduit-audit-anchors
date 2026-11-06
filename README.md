@@ -77,7 +77,15 @@ gateway holds no credential for this repository. If the gateway and
 this mirror ever disagree, the disagreement is public evidence in
 itself.
 
+## Security
+
+Report vulnerabilities privately through GitHub Private Vulnerability Reporting — see [SECURITY.md](SECURITY.md).
+
+## Contributing
+
+Contributions to the verifier, documentation, and tests are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The committed anchors are verified by the chain-integrity suite described in [TEST-PLAN.md](TEST-PLAN.md).
+
 ## License
 
-Apache-2.0 — see the SPDX headers in each file. The verifier is meant
+Apache-2.0 — see [LICENSE](LICENSE) at the repository root and the SPDX headers in each file. The verifier is meant
 to be copied: take it, run it, keep it.
