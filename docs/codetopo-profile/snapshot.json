@@ -1,0 +1,3116 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "code",
+  "profile_version": "1.0.0",
+  "graph_class": "truths",
+  "provenance_summary": {
+    "extracted_truth": 190
+  },
+  "nodes": [
+    {
+      "id": "conduit-audit-anchors",
+      "kind": "package",
+      "label": "conduit-audit-anchors",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/CHANGELOG.md",
+      "kind": "file",
+      "label": "CHANGELOG.md",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/CONTRIBUTING.md",
+      "kind": "file",
+      "label": "CONTRIBUTING.md",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/README.md",
+      "kind": "file",
+      "label": "README.md",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/SECURITY.md",
+      "kind": "file",
+      "label": "SECURITY.md",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/TEST-PLAN.md",
+      "kind": "file",
+      "label": "TEST-PLAN.md",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "kind": "file",
+      "label": "tests/anchors.test.mjs",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::/verify.mjs",
+      "kind": "file",
+      "label": "verify.mjs",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::CHANGELOG",
+      "kind": "module",
+      "label": "conduit-audit-anchors::CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::CHANGELOG::CHANGELOG",
+      "kind": "doc",
+      "label": "CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::CONTRIBUTING",
+      "kind": "module",
+      "label": "conduit-audit-anchors::CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::CONTRIBUTING::CONTRIBUTING",
+      "kind": "doc",
+      "label": "CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::README",
+      "kind": "module",
+      "label": "conduit-audit-anchors::README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::README::README",
+      "kind": "doc",
+      "label": "README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::SECURITY",
+      "kind": "module",
+      "label": "conduit-audit-anchors::SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::SECURITY::SECURITY",
+      "kind": "doc",
+      "label": "SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::TEST-PLAN",
+      "kind": "module",
+      "label": "conduit-audit-anchors::TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::TEST-PLAN::TEST-PLAN",
+      "kind": "doc",
+      "label": "TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "kind": "module",
+      "label": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "kind": "variable",
+      "label": "anchors",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 38
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "parseAnchors",
+        "anchorsText"
+      ],
+      "end_line": 38,
+      "signature": "anchors"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "kind": "variable",
+      "label": "anchorsText",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 34
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "readFile",
+        "URL",
+        "root"
+      ],
+      "end_line": 34,
+      "signature": "anchorsText"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::expectedFirstSeq",
+      "kind": "variable",
+      "label": "expectedFirstSeq",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 101
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 101,
+      "signature": "expectedFirstSeq"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::i",
+      "kind": "variable",
+      "label": "i",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 71
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 71,
+      "signature": "i"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::keyDoc",
+      "kind": "variable",
+      "label": "keyDoc",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 37
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "JSON",
+        "keyText"
+      ],
+      "end_line": 37,
+      "signature": "keyDoc"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "kind": "variable",
+      "label": "keyText",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 35
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "readFile",
+        "URL",
+        "root"
+      ],
+      "end_line": 35,
+      "signature": "keyText"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::last",
+      "kind": "variable",
+      "label": "last",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 112
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "a"
+      ],
+      "end_line": 112,
+      "signature": "last"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "kind": "variable",
+      "label": "latest",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 36
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "JSON",
+        "readFile",
+        "URL",
+        "root"
+      ],
+      "end_line": 36,
+      "signature": "latest"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "kind": "variable",
+      "label": "ok",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 85
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "ed25519Verify",
+        "publicKeyRaw",
+        "a",
+        "canonical",
+        "without"
+      ],
+      "end_line": 89,
+      "signature": "ok"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "variable",
+      "label": "publicKeyRaw",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 39
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "parsePublicKey",
+        "keyText"
+      ],
+      "end_line": 39,
+      "signature": "publicKeyRaw"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::root",
+      "kind": "variable",
+      "label": "root",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 33
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "URL"
+      ],
+      "end_line": 33,
+      "signature": "root"
+    },
+    {
+      "id": "conduit-audit-anchors::tests::anchors.test.mjs::without",
+      "kind": "function",
+      "label": "without",
+      "loc": {
+        "file": "tests/anchors.test.mjs",
+        "line": 41
+      },
+      "tier": "optional",
+      "defines": [
+        "obj",
+        "field",
+        "out"
+      ],
+      "refs": [
+        "k",
+        "Object"
+      ],
+      "end_line": 45,
+      "signature": "function without(obj, field)",
+      "decisions": 2
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs",
+      "kind": "module",
+      "label": "conduit-audit-anchors::verify.mjs",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::DEFAULT_ANCHORS_URL",
+      "kind": "variable",
+      "label": "DEFAULT_ANCHORS_URL",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 183
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 184,
+      "signature": "DEFAULT_ANCHORS_URL"
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::DEFAULT_KEY_URL",
+      "kind": "variable",
+      "label": "DEFAULT_KEY_URL",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 185
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 186,
+      "signature": "DEFAULT_KEY_URL"
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "kind": "function",
+      "label": "anchorHash",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 57
+      },
+      "tier": "optional",
+      "defines": [
+        "anchor"
+      ],
+      "refs": [
+        "sha256Hex",
+        "canonical",
+        "without"
+      ],
+      "end_line": 59,
+      "signature": "function anchorHash(anchor)",
+      "decisions": 0
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "function",
+      "label": "canonical",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 36
+      },
+      "tier": "optional",
+      "defines": [
+        "value"
+      ],
+      "refs": [
+        "JSON",
+        "sortKeys"
+      ],
+      "end_line": 38,
+      "signature": "function canonical(value)",
+      "decisions": 0
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "kind": "function",
+      "label": "ed25519Verify",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 62
+      },
+      "tier": "optional",
+      "defines": [
+        "publicKeyRaw",
+        "signatureHex",
+        "canonicalBody",
+        "jwk",
+        "key"
+      ],
+      "refs": [
+        "Buffer",
+        "createPublicKey",
+        "cryptoVerify"
+      ],
+      "end_line": 75,
+      "signature": "function ed25519Verify(publicKeyRaw, signatureHex, canonicalBody)",
+      "decisions": 0
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::main",
+      "kind": "function",
+      "label": "main",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 223
+      },
+      "tier": "optional",
+      "defines": [
+        "argv",
+        "args",
+        "receiptSrc",
+        "anchorsSrc",
+        "keySrc",
+        "jsonOut",
+        "i",
+        "a",
+        "receiptText",
+        "resolve",
+        "reject",
+        "data",
+        "c",
+        "receiptDoc",
+        "receipt",
+        "anchors",
+        "publicKeyRaw",
+        "result"
+      ],
+      "refs": [
+        "DEFAULT_ANCHORS_URL",
+        "DEFAULT_KEY_URL",
+        "console",
+        "process",
+        "Promise",
+        "readSource",
+        "JSON",
+        "parseAnchors",
+        "parsePublicKey",
+        "verifyReceiptIndependent"
+      ],
+      "end_line": 269,
+      "signature": "async function main(argv)",
+      "decisions": 16
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "kind": "function",
+      "label": "parseAnchors",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 197
+      },
+      "tier": "optional",
+      "defines": [
+        "text",
+        "trimmed",
+        "parsed",
+        "l"
+      ],
+      "refs": [
+        "JSON",
+        "Array",
+        "Boolean"
+      ],
+      "end_line": 213,
+      "signature": "function parseAnchors(text)",
+      "decisions": 7
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "kind": "function",
+      "label": "parsePublicKey",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 215
+      },
+      "tier": "optional",
+      "defines": [
+        "text",
+        "doc",
+        "b64"
+      ],
+      "refs": [
+        "JSON",
+        "Uint8Array",
+        "Buffer"
+      ],
+      "end_line": 221,
+      "signature": "function parsePublicKey(text)",
+      "decisions": 4
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::readSource",
+      "kind": "function",
+      "label": "readSource",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 188
+      },
+      "tier": "optional",
+      "defines": [
+        "src",
+        "res"
+      ],
+      "refs": [
+        "fetch",
+        "Error",
+        "readFile"
+      ],
+      "end_line": 195,
+      "signature": "async function readSource(src)",
+      "decisions": 2
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "kind": "function",
+      "label": "sha256Hex",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 48
+      },
+      "tier": "optional",
+      "defines": [
+        "text"
+      ],
+      "refs": [
+        "createHash"
+      ],
+      "end_line": 50,
+      "signature": "function sha256Hex(text)",
+      "decisions": 0
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "kind": "function",
+      "label": "sortKeys",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 39
+      },
+      "tier": "optional",
+      "defines": [
+        "v",
+        "out"
+      ],
+      "refs": [
+        "Array",
+        "sortKeys",
+        "k",
+        "Object"
+      ],
+      "end_line": 47,
+      "signature": "function sortKeys(v)",
+      "decisions": 4
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "kind": "function",
+      "label": "verifyReceiptIndependent",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 80
+      },
+      "tier": "optional",
+      "defines": [
+        "receipt",
+        "anchors",
+        "publicKeyRaw",
+        "checks",
+        "push",
+        "id",
+        "label",
+        "pass",
+        "note",
+        "sorted",
+        "a",
+        "b",
+        "recomputed",
+        "covering",
+        "seg",
+        "idx",
+        "e",
+        "included",
+        "linked",
+        "prevAnchor",
+        "ok",
+        "chainOk",
+        "i",
+        "sigCheck",
+        "c",
+        "allPass",
+        "verdict"
+      ],
+      "refs": [
+        "Boolean",
+        "sha256Hex",
+        "canonical",
+        "without",
+        "Array",
+        "ed25519Verify",
+        "anchorHash"
+      ],
+      "end_line": 180,
+      "signature": "function verifyReceiptIndependent(receipt, anchors, publicKeyRaw)",
+      "decisions": 27
+    },
+    {
+      "id": "conduit-audit-anchors::verify.mjs::without",
+      "kind": "function",
+      "label": "without",
+      "loc": {
+        "file": "verify.mjs",
+        "line": 51
+      },
+      "tier": "optional",
+      "defines": [
+        "obj",
+        "field",
+        "out"
+      ],
+      "refs": [
+        "k",
+        "Object"
+      ],
+      "end_line": 55,
+      "signature": "function without(obj, field)",
+      "decisions": 2
+    },
+    {
+      "id": "external::/^https?:\\/\\//.test",
+      "kind": "external",
+      "label": "/^https?:\\/\\//.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Array.isArray",
+      "kind": "external",
+      "label": "Array.isArray",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Boolean",
+      "kind": "external",
+      "label": "Boolean",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Buffer.from",
+      "kind": "external",
+      "label": "Buffer.from",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Buffer.from(publicKeyRaw).toString",
+      "kind": "external",
+      "label": "Buffer.from(publicKeyRaw).toString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Error",
+      "kind": "external",
+      "label": "Error",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSON.parse",
+      "kind": "external",
+      "label": "JSON.parse",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSON.stringify",
+      "kind": "external",
+      "label": "JSON.stringify",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Object.keys",
+      "kind": "external",
+      "label": "Object.keys",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Object.keys(v).sort",
+      "kind": "external",
+      "label": "Object.keys(v).sort",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Promise",
+      "kind": "external",
+      "label": "Promise",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::URL",
+      "kind": "external",
+      "label": "URL",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Uint8Array",
+      "kind": "external",
+      "label": "Uint8Array",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::[...anchors].sort",
+      "kind": "external",
+      "label": "[...anchors].sort",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::a.startsWith",
+      "kind": "external",
+      "label": "a.startsWith",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.deepEqual",
+      "kind": "external",
+      "label": "assert.deepEqual",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.equal",
+      "kind": "external",
+      "label": "assert.equal",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.match",
+      "kind": "external",
+      "label": "assert.match",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.ok",
+      "kind": "external",
+      "label": "assert.ok",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::checks.every",
+      "kind": "external",
+      "label": "checks.every",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::checks.find",
+      "kind": "external",
+      "label": "checks.find",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::checks.push",
+      "kind": "external",
+      "label": "checks.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::console.error",
+      "kind": "external",
+      "label": "console.error",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::console.log",
+      "kind": "external",
+      "label": "console.log",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::createHash",
+      "kind": "external",
+      "label": "createHash",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::createHash(\"sha256\").update",
+      "kind": "external",
+      "label": "createHash(\"sha256\").update",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::createHash(\"sha256\").update(text, \"utf8\").digest",
+      "kind": "external",
+      "label": "createHash(\"sha256\").update(text, \"utf8\").digest",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::createPublicKey",
+      "kind": "external",
+      "label": "createPublicKey",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::cryptoVerify",
+      "kind": "external",
+      "label": "cryptoVerify",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fetch",
+      "kind": "external",
+      "label": "fetch",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::l.trim",
+      "kind": "external",
+      "label": "l.trim",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::main(process.argv.slice(2)).catch",
+      "kind": "external",
+      "label": "main(process.argv.slice(2)).catch",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:assert/strict",
+      "kind": "external",
+      "label": "node:assert/strict",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:crypto",
+      "kind": "external",
+      "label": "node:crypto",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:fs/promises",
+      "kind": "external",
+      "label": "node:fs/promises",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:test",
+      "kind": "external",
+      "label": "node:test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.argv.slice",
+      "kind": "external",
+      "label": "process.argv.slice",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.exit",
+      "kind": "external",
+      "label": "process.exit",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.stdin.on",
+      "kind": "external",
+      "label": "process.stdin.on",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.stdin.setEncoding",
+      "kind": "external",
+      "label": "process.stdin.setEncoding",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::push",
+      "kind": "external",
+      "label": "push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::readFile",
+      "kind": "external",
+      "label": "readFile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::res.text",
+      "kind": "external",
+      "label": "res.text",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::resolve",
+      "kind": "external",
+      "label": "resolve",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::seg.findIndex",
+      "kind": "external",
+      "label": "seg.findIndex",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::sorted.find",
+      "kind": "external",
+      "label": "sorted.find",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::test",
+      "kind": "external",
+      "label": "test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::text.trim",
+      "kind": "external",
+      "label": "text.trim",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::trimmed\n    .split",
+      "kind": "external",
+      "label": "trimmed\n    .split",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::trimmed\n    .split(\"\\n\")\n    .map",
+      "kind": "external",
+      "label": "trimmed\n    .split(\"\\n\")\n    .map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter",
+      "kind": "external",
+      "label": "trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter(Boolean)\n    .map",
+      "kind": "external",
+      "label": "trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter(Boolean)\n    .map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::v.map",
+      "kind": "external",
+      "label": "v.map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors",
+      "to": "conduit-audit-anchors::verify.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/CHANGELOG.md",
+      "to": "conduit-audit-anchors::CHANGELOG::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/CONTRIBUTING.md",
+      "to": "conduit-audit-anchors::CONTRIBUTING::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/README.md",
+      "to": "conduit-audit-anchors::README::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/SECURITY.md",
+      "to": "conduit-audit-anchors::SECURITY::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/TEST-PLAN.md",
+      "to": "conduit-audit-anchors::TEST-PLAN::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::expectedFirstSeq",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::i",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::keyDoc",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::last",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::root",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::without",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::DEFAULT_ANCHORS_URL",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::DEFAULT_KEY_URL",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::main",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::readSource",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::/verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::without",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::CHANGELOG",
+      "to": "conduit-audit-anchors::/CHANGELOG.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::CONTRIBUTING",
+      "to": "conduit-audit-anchors::/CONTRIBUTING.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::README",
+      "to": "conduit-audit-anchors::/README.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::SECURITY",
+      "to": "conduit-audit-anchors::/SECURITY.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::TEST-PLAN",
+      "to": "conduit-audit-anchors::/TEST-PLAN.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "conduit-audit-anchors::/tests/anchors.test.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "conduit-audit-anchors::verify.mjs",
+      "kind": "imports",
+      "line": 25,
+      "attrs": {
+        "bindings": [
+          "anchorHash",
+          "canonical",
+          "ed25519Verify",
+          "parseAnchors",
+          "parsePublicKey"
+        ]
+      }
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "kind": "calls",
+      "line": 75,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::assert.deepEqual",
+      "kind": "calls",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::assert.equal",
+      "kind": "calls",
+      "line": 48,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::assert.match",
+      "kind": "calls",
+      "line": 64,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::assert.ok",
+      "kind": "calls",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::node:assert/strict",
+      "kind": "imports",
+      "line": 23,
+      "attrs": {
+        "bindings": [
+          "assert"
+        ]
+      }
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::node:fs/promises",
+      "kind": "imports",
+      "line": 24,
+      "attrs": {
+        "bindings": [
+          "readFile"
+        ]
+      }
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::node:test",
+      "kind": "imports",
+      "line": 22,
+      "attrs": {
+        "bindings": [
+          "test"
+        ]
+      }
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+      "to": "external::test",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "kind": "reads",
+      "line": 38,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "to": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "kind": "calls",
+      "line": 38,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "to": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "kind": "reads",
+      "line": 38,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::root",
+      "kind": "reads",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "to": "external::URL",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "to": "external::URL",
+      "kind": "reads",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "to": "external::readFile",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+      "to": "external::readFile",
+      "kind": "reads",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::keyDoc",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "kind": "reads",
+      "line": 37,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::root",
+      "kind": "reads",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "to": "external::URL",
+      "kind": "calls",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "to": "external::URL",
+      "kind": "reads",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "to": "external::readFile",
+      "kind": "calls",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "to": "external::readFile",
+      "kind": "reads",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::root",
+      "kind": "reads",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "to": "external::URL",
+      "kind": "calls",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "to": "external::URL",
+      "kind": "reads",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "to": "external::readFile",
+      "kind": "calls",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::latest",
+      "to": "external::readFile",
+      "kind": "reads",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "reads",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::without",
+      "kind": "calls",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::without",
+      "kind": "reads",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "calls",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "reads",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "to": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "kind": "reads",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::keyText",
+      "kind": "reads",
+      "line": 39,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "to": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "kind": "reads",
+      "line": 39,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::root",
+      "to": "external::URL",
+      "kind": "reads",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::tests::anchors.test.mjs::without",
+      "to": "external::Object.keys",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "conduit-audit-anchors::/verify.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "conduit-audit-anchors::verify.mjs::main",
+      "kind": "calls",
+      "line": 272,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 273,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "external::main(process.argv.slice(2)).catch",
+      "kind": "calls",
+      "line": 272,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "external::node:crypto",
+      "kind": "imports",
+      "line": 32,
+      "attrs": {
+        "bindings": [
+          "createHash",
+          "createPublicKey",
+          "cryptoVerify"
+        ]
+      }
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "external::node:fs/promises",
+      "kind": "imports",
+      "line": 33,
+      "attrs": {
+        "bindings": [
+          "readFile"
+        ]
+      }
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "external::process.argv.slice",
+      "kind": "calls",
+      "line": 272,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "calls",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "reads",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "to": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "kind": "calls",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "to": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "kind": "reads",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "to": "conduit-audit-anchors::verify.mjs::without",
+      "kind": "calls",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "to": "conduit-audit-anchors::verify.mjs::without",
+      "kind": "reads",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::canonical",
+      "to": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "kind": "calls",
+      "line": 37,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::canonical",
+      "to": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "kind": "reads",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::canonical",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 37,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "defines",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "external::Buffer.from(publicKeyRaw).toString",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "external::createPublicKey",
+      "kind": "calls",
+      "line": 68,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "external::createPublicKey",
+      "kind": "reads",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "external::cryptoVerify",
+      "kind": "calls",
+      "line": 69,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "to": "external::cryptoVerify",
+      "kind": "reads",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "kind": "defines",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::i",
+      "kind": "defines",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "defines",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "writes",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::DEFAULT_ANCHORS_URL",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::DEFAULT_KEY_URL",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "kind": "calls",
+      "line": 252,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "kind": "calls",
+      "line": 255,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::readSource",
+      "kind": "calls",
+      "line": 249,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::readSource",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "kind": "calls",
+      "line": 259,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 250,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 261,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::Promise",
+      "kind": "calls",
+      "line": 242,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::Promise",
+      "kind": "reads",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::a.startsWith",
+      "kind": "calls",
+      "line": 234,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 237,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::console.log",
+      "kind": "calls",
+      "line": 261,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 238,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::process.stdin.on",
+      "kind": "calls",
+      "line": 245,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::process.stdin.setEncoding",
+      "kind": "calls",
+      "line": 244,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::resolve",
+      "kind": "calls",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::main",
+      "to": "external::resolve",
+      "kind": "defines",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::Array.isArray",
+      "kind": "calls",
+      "line": 202,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::Boolean",
+      "kind": "reads",
+      "line": 197,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 201,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::l.trim",
+      "kind": "calls",
+      "line": 210,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::text.trim",
+      "kind": "calls",
+      "line": 198,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::trimmed\n    .split",
+      "kind": "calls",
+      "line": 208,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::trimmed\n    .split(\"\\n\")\n    .map",
+      "kind": "calls",
+      "line": 208,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter",
+      "kind": "calls",
+      "line": 208,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+      "to": "external::trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter(Boolean)\n    .map",
+      "kind": "calls",
+      "line": 208,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 218,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 216,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "to": "external::Uint8Array",
+      "kind": "calls",
+      "line": 218,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+      "to": "external::Uint8Array",
+      "kind": "reads",
+      "line": 215,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::/^https?:\\/\\//.test",
+      "kind": "calls",
+      "line": 189,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::Error",
+      "kind": "calls",
+      "line": 191,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::Error",
+      "kind": "reads",
+      "line": 188,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::fetch",
+      "kind": "calls",
+      "line": 190,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::fetch",
+      "kind": "reads",
+      "line": 188,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::readFile",
+      "kind": "calls",
+      "line": 194,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::readFile",
+      "kind": "reads",
+      "line": 188,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::readSource",
+      "to": "external::res.text",
+      "kind": "calls",
+      "line": 192,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "to": "external::createHash",
+      "kind": "calls",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "to": "external::createHash",
+      "kind": "reads",
+      "line": 48,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "to": "external::createHash(\"sha256\").update",
+      "kind": "calls",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "to": "external::createHash(\"sha256\").update(text, \"utf8\").digest",
+      "kind": "calls",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "to": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "to": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "kind": "reads",
+      "line": 39,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "to": "external::Array.isArray",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "to": "external::Object.keys",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "to": "external::Object.keys(v).sort",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+      "to": "external::v.map",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::anchors",
+      "kind": "defines",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::i",
+      "kind": "defines",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "kind": "defines",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::ok",
+      "kind": "writes",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::tests::anchors.test.mjs::publicKeyRaw",
+      "kind": "defines",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "kind": "calls",
+      "line": 167,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::anchorHash",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "calls",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::canonical",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "kind": "calls",
+      "line": 147,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "kind": "calls",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::sha256Hex",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::without",
+      "kind": "calls",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "conduit-audit-anchors::verify.mjs::without",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::Array.isArray",
+      "kind": "calls",
+      "line": 104,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::Boolean",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::Boolean",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::[...anchors].sort",
+      "kind": "calls",
+      "line": 89,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::checks.every",
+      "kind": "calls",
+      "line": 173,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::checks.find",
+      "kind": "calls",
+      "line": 172,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::checks.push",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::push",
+      "kind": "calls",
+      "line": 86,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::push",
+      "kind": "defines",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::seg.findIndex",
+      "kind": "calls",
+      "line": 105,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+      "to": "external::sorted.find",
+      "kind": "calls",
+      "line": 100,
+      "attrs": {}
+    },
+    {
+      "from": "conduit-audit-anchors::verify.mjs::without",
+      "to": "external::Object.keys",
+      "kind": "calls",
+      "line": 53,
+      "attrs": {}
+    }
+  ],
+  "audit_head": "8f98be50e97ece70756787ff0d890a74c55d94f420a4997aa4def73070a33fbe",
+  "audit_log": [
+    {
+      "seq": 0,
+      "ts": "1795021373",
+      "op": "genesis",
+      "payload": "{}",
+      "prev_hash": "GENESIS",
+      "hash": "3487b87456e0ed7af79083f6361c7ee1fe302e495bd9eff35265cf87891bd998"
+    },
+    {
+      "seq": 1,
+      "ts": "1795021373",
+      "op": "index_started",
+      "payload": "{\"package\":\"conduit-audit-anchors\",\"repo\":\"/home/hatch/workspace/codetopo-work/PROFILES-GM-GATE-2026-11-18/work/conduit-audit-anchors\"}",
+      "prev_hash": "3487b87456e0ed7af79083f6361c7ee1fe302e495bd9eff35265cf87891bd998",
+      "hash": "18d22f19886d6927f0c23c359506a071c87a053c971480857846407929138851"
+    },
+    {
+      "seq": 2,
+      "ts": "1795021373",
+      "op": "index_finished",
+      "payload": "{\"diagnostics\":50,\"edges\":190,\"files_failed\":0,\"files_indexed\":7,\"nodes\":98}",
+      "prev_hash": "18d22f19886d6927f0c23c359506a071c87a053c971480857846407929138851",
+      "hash": "8f98be50e97ece70756787ff0d890a74c55d94f420a4997aa4def73070a33fbe"
+    }
+  ],
+  "diagnostics": [
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+        "target": "assert.deepEqual",
+        "line": 120
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+        "target": "assert.equal",
+        "line": 48
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+        "target": "assert.match",
+        "line": 64
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+        "target": "assert.ok",
+        "line": 49
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs",
+        "target": "test",
+        "line": 47
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+        "target": "URL",
+        "line": 34
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs::anchorsText",
+        "target": "readFile",
+        "line": 34
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::tests::anchors.test.mjs::without",
+        "target": "Object.keys",
+        "line": 43
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs",
+        "target": "main(process.argv.slice(2)).catch",
+        "line": 272
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs",
+        "target": "process.argv.slice",
+        "line": 272
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::canonical",
+        "target": "JSON.stringify",
+        "line": 37
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+        "target": "Buffer.from",
+        "line": 66
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+        "target": "Buffer.from(publicKeyRaw).toString",
+        "line": 66
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+        "target": "createPublicKey",
+        "line": 68
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::ed25519Verify",
+        "target": "cryptoVerify",
+        "line": 69
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "Promise",
+        "line": 242
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "a.startsWith",
+        "line": 234
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "console.error",
+        "line": 237
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "console.log",
+        "line": 261
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "process.exit",
+        "line": 238
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "process.stdin.on",
+        "line": 245
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "process.stdin.setEncoding",
+        "line": 244
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::main",
+        "target": "resolve",
+        "line": 246
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "JSON.parse",
+        "line": 201
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "l.trim",
+        "line": 210
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "text.trim",
+        "line": 198
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "trimmed\n    .split",
+        "line": 208
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "trimmed\n    .split(\"\\n\")\n    .map",
+        "line": 208
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter",
+        "line": 208
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parseAnchors",
+        "target": "trimmed\n    .split(\"\\n\")\n    .map((l) => l.trim())\n    .filter(Boolean)\n    .map",
+        "line": 208
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::parsePublicKey",
+        "target": "Uint8Array",
+        "line": 218
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::readSource",
+        "target": "/^https?:\\/\\//.test",
+        "line": 189
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::readSource",
+        "target": "Error",
+        "line": 191
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::readSource",
+        "target": "fetch",
+        "line": 190
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::readSource",
+        "target": "res.text",
+        "line": 192
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+        "target": "createHash",
+        "line": 49
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+        "target": "createHash(\"sha256\").update",
+        "line": 49
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::sha256Hex",
+        "target": "createHash(\"sha256\").update(text, \"utf8\").digest",
+        "line": 49
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+        "target": "Array.isArray",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+        "target": "Object.keys(v).sort",
+        "line": 43
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::sortKeys",
+        "target": "v.map",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "Boolean",
+        "line": 83
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "[...anchors].sort",
+        "line": 89
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "checks.every",
+        "line": 173
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "checks.find",
+        "line": 172
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "checks.push",
+        "line": 83
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "push",
+        "line": 86
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "seg.findIndex",
+        "line": 105
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "conduit-audit-anchors::verify.mjs::verifyReceiptIndependent",
+        "target": "sorted.find",
+        "line": 100
+      }
+    },
+    {
+      "Cycle": {
+        "edge_kind": "calls",
+        "cycle": [
+          "conduit-audit-anchors::verify.mjs::sortKeys"
+        ]
+      }
+    }
+  ]
+}
